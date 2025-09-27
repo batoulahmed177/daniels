@@ -1,0 +1,105 @@
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)),url(./imgs/imgs/bg.jpg);
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+
+}
+.color{
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+
+}
+.width{
+    width:50px;
+    height:50px
+}
+.img{
+    background-image: url(./imgs/imgs/dots.png);
+    background-repeat: repeat;
+}
+.icon-contact{
+    width: 50px;
+    height: 50px;
+}
+:root{
+    
+}
+:root{
+    --bs-link-color:hwb(0 0% 100%);
+--bs-link-hover-color:hwb(0 0% 100%);
+--bs-nav-pills-link-active-color:hwb(0 0% 100%);
+--bs-nav-pills-link-active-bg:#fff!important;
+--bs-border-radius: 0rem;
+}
+.nav{
+    font-weight: 900;
+    color: black;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+}
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #000000;
+    --bs-nav-pills-link-active-bg: #ffffff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+}
+.contact button:hover{
+    background-color: #fff;
+    color: black;
+}
+.slider-img{
+    width:100px;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%!important;
+    background-color: #9a9797 !important;
+
+
+}.team h2 {
+  position: relative;
+  font-weight: 900;
+  z-index: 2;
+}
+.team h2::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 23px;
+  bottom: 1px;
+  background-image: url(../img/imgs/dots.png);
+  z-index: -1;
+}
+.cards {
+  width: 300px;
+}
+.cards img {
+  transition: all 1s ease;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+.hide-icons {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  left: 5px;
+  bottom: 100px;
+  opacity: 0;
+  transition: all 1s ease;
+}
+.cards:hover .hide-icons {
+  transform: rotateY(360deg);
+  opacity: 1;
+}
+.culr {
+  background-color: #2f2e2e;
+  color: #fff;
+}
